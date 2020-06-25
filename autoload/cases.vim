@@ -36,7 +36,7 @@ function! cases#SnakeWordExclusive()
     normal h
   endif
   normal v
-  call search('\<\|_\zs', 'bcW')
+  call search('\(_\|\<\)\zs', 'bcW')
   normal o
 endfunction
 
