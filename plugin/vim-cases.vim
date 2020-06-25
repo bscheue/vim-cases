@@ -1,6 +1,6 @@
-" vim-cases-windows - toggle Vim's windows
+" vim-cases - TODO put description here
 "
-" Maintainer: bscheue <bscheuer@andrew.cmu.edu>
+" Maintainer: bscheue <brians1123@gmail.com>
 " Website:  https://github.com/bscheue/vim-cases
 "
 " Use this command to get help on vim-cases:
@@ -22,7 +22,6 @@ nnoremap <silent> <Plug>CasesCamelBackward-n :<c-u>call search('\<\<bar>\u', 'bW
 onoremap <silent> <Plug>CasesCamelForward-o :<c-u>call search('\<\<bar>\u', 'W')<CR>
 onoremap <silent> <Plug>CasesCamelBackward-o :<c-u>call search('\<\<bar>\u', 'bW')<CR>
 
-" TODO add function # prefix
 xnoremap <silent> <Plug>CasesCamelForward-x <ESC>:<c-u>call cases#ExtendVisual('\<\<bar>\u', '')<CR>
 xnoremap <silent> <Plug>CasesCamelBackward-x <ESC>:<c-u>call cases#ExtendVisual('\<\<bar>\u', 'b')<CR>
 
